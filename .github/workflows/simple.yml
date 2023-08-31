@@ -10,8 +10,6 @@ jobs:
         run: echo "Hello world"
       - name: multiline script
         run: |
-          jvm -v
-          javac -v
           node -v
           npm -v 
 
